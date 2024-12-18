@@ -1,0 +1,35 @@
+.centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Altura total da tela */
+    background-color: #3b3b3b; /* Cor de fundo */
+    text-align: center; /* Centraliza o texto */
+}
+
+h2 {
+    margin: 20px 0; /* Margem em cima e embaixo do título */
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+}
+
+li {
+    margin: 10px 0; /* Margem entre os itens da lista */
+}
+.buscarInput{
+    padding: 2.5em;
+    border-radius: 3em 0 0 3em;
+}
+.buscarBotao{
+    padding: 2.5em;
+    border-radius: 0 3em 3em 0;
+}
+.buscarBotao:hover{
+    background-color: rgb(128, 128, 128);
+    transition: 1s;
+    color: beige;
+}
