@@ -21,15 +21,22 @@ li {
     margin: 10px 0; /* Margem entre os itens da lista */
 }
 .buscarInput{
+    background-color: RGBA(255, 255, 255, 0.8);
+    color: #313131;
     padding: 2.5em;
     border-radius: 3em 0 0 3em;
 }
+.buscarInput:hover{
+    background-color: RGBA(255, 255, 255, 1);
+    transition: 0.5s;
+}
 .buscarBotao{
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 2.5em;
     border-radius: 0 3em 3em 0;
 }
 .buscarBotao:hover{
-    background-color: rgb(128, 128, 128);
-    transition: 1s;
-    color: beige;
+    background-color: rgba(255, 255, 255, 1);
+    transition: 0.5s;
+
 }
